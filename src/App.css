@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.header {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  /* because I want the space in the middle of logo and the second div */
+  width: 70%;
+  align-items: center;
+  /* align centr , here everything on this div will be 
+  on the center/vertically */
+  margin: 10px auto;
+  /* 0 auto to center */
+}
+.navs {
+  list-style: none;
+  display: flex;
+}
+/*reason for calling Li by itself is to target all the list */
+.navs li {
+  padding: 7px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tittle {
+  color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.parent-blog-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blog-container {
+  width: 50%;
+  border: 1px solid;
+  padding: 15px 15px 20px 15px;
+  box-shadow: 5px 5px blue;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  align-items: center;
 }
