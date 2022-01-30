@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+.parent-blog-container :hover {
+  border-color: blue;
+  border-width: 2.5px;
+}
+
 .blog-container {
   width: 50%;
   border: 1px solid;
@@ -12,11 +17,4 @@
   margin-top: 12px;
   margin-bottom: 12px;
   align-items: center;
-}
-#parentID :hover {
-  box-shadow: 5px 5px 5px blue;
-}
-
-#blogID :hover {
-  box-shadow: none;
 }

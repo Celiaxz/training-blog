@@ -4,10 +4,10 @@ import "./BlogItem.css";
 const BlogItem = (props) => {
   const { myData } = props;
   return (
-    <div className="parent-blog-container" id="parentID">
+    <div className="parent-blog-container">
       {myData.map((item) => {
         return (
-          <div className="blog-container" key={item.id} id="blogID">
+          <div className="blog-container" key={item.id}>
             <h2>{item.title}</h2>
             <p>{item.body}</p>
           </div>
