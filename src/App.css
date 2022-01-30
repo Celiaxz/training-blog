@@ -14,6 +14,9 @@
 .navs li {
   padding: 7px;
 }
+.navs li:hover {
+  background-color: blue;
+}
 
 .tittle {
   color: blue;
