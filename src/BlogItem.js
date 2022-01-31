@@ -14,16 +14,24 @@ const myDate = () => {
 const BlogItem = (props) => {
   const { myData } = props;
   return (
-    <div className="parent-blog-container">
-      {myData.map((item) => {
-        return (
-          <div className="blog-container" key={item.id}>
-            <p>{myDate()}</p>
-            <h2>{item.title}</h2>
-            <p>{item.body}</p>
-          </div>
-        );
-      })}
+    <div>
+      <div className="maintittle">
+        <h1>
+          <span className="thetittle">The </span>
+          <span className="blogtittle">Blog</span>
+        </h1>
+      </div>
+      <div className="parent-blog-container">
+        {myData.map((item) => {
+          return (
+            <div className="blog-container" key={item.id}>
+              <p>{myDate()}</p>
+              <h2>{item.title}</h2>
+              <p>{item.body}</p>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };

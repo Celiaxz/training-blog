@@ -18,8 +18,9 @@
 }
 
 .maintittle {
-  position: normal;
   font-size: xx-large;
+  width: 50%;
+  margin: -15px auto;
 }
 
 .thetittle {
