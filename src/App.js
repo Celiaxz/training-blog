@@ -1,7 +1,6 @@
-// arrow function, every function returns a HTML(jsx)
-//begin
 import BlogItem from "./BlogItem";
 import "./App.css";
+
 const myData = [
   {
     id: 1,
@@ -27,6 +26,7 @@ const myData = [
 const onMouseClick = () => {
   console.log("Home was clicked");
 };
+
 const App = () => {
   return (
     <div>
