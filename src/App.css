@@ -1,8 +1,7 @@
 .header {
-  border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 60%;
   align-items: center;
   margin: 10px auto;
 }
@@ -18,6 +17,22 @@
   background-color: blue;
 }
 
-.tittle {
-  color: blue;
+.maintittle {
+  position: normal;
+  font-size: xx-large;
+}
+
+.thetittle {
+  color: #009bc0;
+  width: 196.74px;
+  height: 125px;
+  top: 186px;
+  left: 292px;
+}
+.blogtittle {
+  color: #1b3854;
+  width: 257.61px;
+  height: 125px;
+  top: 186px;
+  left: 499.61px;
 }

@@ -41,9 +41,10 @@ const App = () => {
         </div>
       </header>
 
-      <div>
+      <div className="maintittle">
         <h1>
-          <span className="tittle">The</span> Blog
+          <span className="thetittle">The </span>
+          <span className="blogtittle">Blog</span>
         </h1>
       </div>
       <BlogItem myData={myData} />
