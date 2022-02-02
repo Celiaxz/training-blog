@@ -13,13 +13,24 @@
 .navs li {
   padding: 7px;
 }
-.navs li:hover {
-  background-color: blue;
+.navs li a {
+  text-decoration: none;
+  color: #000010;
 }
-
+.navs li:hover {
+  border-bottom: 2px solid #009bc0;
+}
+.navs li.active {
+  border-bottom: 2px solid #009bc0;
+}
+.navs li.active a {
+  text-decoration: none;
+  color: #000010;
+  font-weight: bold;
+}
 .maintittle {
   font-size: xx-large;
-  width: 50%;
+  width: 52%;
   margin: -15px auto;
 }
 
@@ -36,4 +47,23 @@
   height: 125px;
   top: 186px;
   left: 499.61px;
+}
+
+.roundbutton {
+  background-color: #009bc0;
+  position: fixed;
+  right: 50px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  bottom: 20px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.17);
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
 }
