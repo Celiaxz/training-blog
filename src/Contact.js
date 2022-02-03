@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 const contact = () => {
   return (
     <div>
@@ -21,20 +20,6 @@ const contact = () => {
             />
           </svg>
         </div>
-
-        {/* <div>
-          <ul className="navs">
-            <li>
-              <Link to="/">HOME</Link>
-            </li>
-            <li>
-              <Link to="/blog">BLOG</Link>
-            </li>
-            <li className="active">
-              <Link to="/contact">CONTACT</Link>
-            </li>
-          </ul>
-        </div> */}
       </header>
       <h1 bg-color="red">"Add contact"</h1>;
     </div>
