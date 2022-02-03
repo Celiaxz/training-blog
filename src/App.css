@@ -17,9 +17,9 @@
   text-decoration: none;
   color: #000010;
 }
-.navs li:hover {
+/* .navs li:hover {
   border-bottom: 2px solid #009bc0;
-}
+} */
 .navs li.active {
   border-bottom: 2px solid #009bc0;
 }
