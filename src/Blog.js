@@ -66,10 +66,10 @@ const Blog = () => {
           <li>
             <Link to="/">HOME</Link>
           </li>
-          <li>
+          <li className="active">
             <Link to="/blog">BLOG</Link>
           </li>
-          <li className="active">
+          <li>
             <Link to="/contact">CONTACT</Link>
           </li>
         </ul>
