@@ -20,7 +20,8 @@ const contact = () => {
             />
           </svg>
         </div>
-        <div>
+
+        {/* <div>
           <ul className="navs">
             <li>
               <a href="/">HOME</a>
@@ -32,7 +33,7 @@ const contact = () => {
               <a href="/contact">CONTACT</a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </header>
       <h1 bg-color="red">"Add contact"</h1>;
     </div>
