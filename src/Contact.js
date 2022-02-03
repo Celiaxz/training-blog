@@ -22,7 +22,7 @@ const contact = () => {
           </svg>
         </div>
 
-        <div>
+        {/* <div>
           <ul className="navs">
             <li>
               <Link to="/">HOME</Link>
@@ -34,7 +34,7 @@ const contact = () => {
               <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </header>
       <h1 bg-color="red">"Add contact"</h1>;
     </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogItem from "./BlogItem";
 
 const myData = [
@@ -60,6 +61,20 @@ const Blog = () => {
         </div>
       </header>
 
+      <div>
+        <ul className="navs">
+          <li>
+            <Link to="/">HOME</Link>
+          </li>
+          <li>
+            <Link to="/blog">BLOG</Link>
+          </li>
+          <li className="active">
+            <Link to="/contact">CONTACT</Link>
+          </li>
+        </ul>
+      </div>
+
       <BlogItem myData={myData} />
       <div className="roundbutton" onClick={addblog}>
         <i className="fa fa-plus icon" aria-hidden="true"></i>
@@ -71,4 +86,5 @@ const Blog = () => {
 const addblog = () => {
   alert("hello i'm an alert function");
 };
+
 export default Blog;
