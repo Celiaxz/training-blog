@@ -62,7 +62,7 @@ const Blog = () => {
 
       <BlogItem myData={myData} />
       <div className="roundbutton" onClick={addblog}>
-        <i class="fa fa-plus icon" aria-hidden="true"></i>
+        <i className="fa fa-plus icon" aria-hidden="true"></i>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
@@ -23,13 +24,13 @@ const Home = () => {
         <div>
           <ul className="navs">
             <li className="active">
-              <a href="/">HOME</a>
+              <Link to="/">HOME</Link>
             </li>
             <li>
-              <a href="/blog">BLOG</a>
+              <Link to="/blog">BLOG</Link>
             </li>
             <li>
-              <a href="/contact">CONTACT</a>
+              <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>
