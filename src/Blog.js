@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 import BlogItem from "./BlogItem";
 
 const myData = [
@@ -70,7 +69,7 @@ const Blog = () => {
 };
 
 const addblog = () => {
-  alert("hello i'm an alert function");
+  alert("Hey you what's poppin");
 };
 
 export default Blog;
