@@ -24,7 +24,7 @@ const contact = () => {
 
         <div>
           <ul className="navs">
-            <li>
+            <li className="active">
               <Link to="/">HOME</Link>
             </li>
             <li>
