@@ -23,7 +23,7 @@
 .navs li.active {
   border-bottom: 2px solid #009bc0;
 }
-.navs li.active a {
+.navs li.active Link {
   text-decoration: none;
   color: #000010;
   font-weight: bold;

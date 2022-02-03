@@ -24,13 +24,13 @@ const contact = () => {
 
         <div>
           <ul className="navs">
-            <li className="active">
+            <li>
               <Link to="/">HOME</Link>
             </li>
             <li>
               <Link to="/blog">BLOG</Link>
             </li>
-            <li>
+            <li className="active">
               <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
