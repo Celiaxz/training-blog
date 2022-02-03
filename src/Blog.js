@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import BlogItem from "./BlogItem";
 
 const myData = [
@@ -48,13 +49,13 @@ const Blog = () => {
         <div>
           <ul className="navs">
             <li>
-              <a href="/">HOME</a>
-            </li>
-            <li className="active">
-              <a href="/blog">BLOG</a>
+              <Link to="/">HOME</Link>
             </li>
             <li>
-              <a href="/contact">CONTACT</a>
+              <Link to="/blog">BLOG</Link>
+            </li>
+            <li>
+              <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>
