@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "./Foot";
 const contact = () => {
   return (
     <div>
@@ -36,7 +37,8 @@ const contact = () => {
           </ul>
         </div>
       </header>
-      <h1 bg-color="red">"Add contact"</h1>;
+      <h1 bg-color="red">"Add contact"</h1>
+      <Footer />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import BlogItem from "./BlogItem";
+import Footer from "./Foot";
 
 const myData = [
   {
@@ -65,6 +66,7 @@ const Blog = () => {
       <div className="roundbutton" onClick={addblog}>
         <i className="fa fa-plus icon" aria-hidden="true"></i>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,44 @@
+.footer {
+  background-color: #1b3854;
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding: 3%;
+}
+
+.footer .footer-cont {
+  padding: 5px;
+  width: 20%;
+  height: 150px;
+}
+
+.footer-logo svg {
+  display: block;
+}
+
+.footer-title {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 146.5%;
+  /* or 35px */
+
+  letter-spacing: -0.01em;
+}
+
+.footer-icons svg {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.phone-number {
+  display: block;
+}
+
+.footer-adress {
+  margin: 10px 0px;
+}

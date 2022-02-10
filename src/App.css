@@ -5,6 +5,7 @@
   align-items: center;
   margin: 10px auto;
 }
+
 .navs {
   list-style: none;
   display: flex;
@@ -13,16 +14,20 @@
 .navs li {
   padding: 7px;
 }
+
 .navs li a {
   text-decoration: none;
   color: #000010;
 }
-/* .navs li:hover {
+
+navs li:hover {
   border-bottom: 2px solid #009bc0;
-} */
+}
+
 .navs li.active {
   border-bottom: 2px solid #009bc0;
 }
+
 .navs li.active Link {
   text-decoration: none;
   color: #000010;

@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import HomeItem from "./HomeItem";
+import Foot from "./Foot";
 const Home = () => {
   return (
     <div>
@@ -35,6 +37,8 @@ const Home = () => {
           </ul>
         </div>
       </header>
+      <HomeItem />
+      <Foot />
     </div>
   );
 };
