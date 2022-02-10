@@ -43,11 +43,11 @@ const HomeItem = () => {
           <img src={window.location.origin + "/1.jpg"} alt="computer" />
 
           <div className="featured-post">
-            <small>FEBRUARY 14, 2021</small>
-            <label>The Importance of Teamwork</label>
+            <small>May 10, 2022</small>
+            <label>The Importance of Work-Life-Balance</label>
             <div className="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              dignissim facilisis sit vestibulum, tempus nam orci...
+              Maintaining a healthy work-life balance is importance for your
+              employee's productivity and performance..
             </div>
           </div>
         </div>
