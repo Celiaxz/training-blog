@@ -67,6 +67,9 @@
   width: 60%;
   margin: 0 auto;
   align-items: center;
+  padding-bottom: 10%;
+  /* background-color: red; */
+  height: 550px;
 }
 
 .slid .rectangle-box {
@@ -139,4 +142,8 @@
   letter-spacing: 0.035em;
 
   color: rgba(255, 255, 255, 0.55);
+}
+
+.slick-dots {
+  padding-top: 10%;
 }
