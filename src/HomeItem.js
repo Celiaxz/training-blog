@@ -1,6 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
 import "./HomeItem.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { ReactComponent as ArrowIcon1 } from "./asset/arrow1.svg";
+import { ReactComponent as ArrowIcon2 } from "./asset/arrow2.svg";
+
 const myDate = () => {
   const currentDate = Date.now();
   const today = new Date(currentDate);
@@ -35,17 +40,49 @@ const myData = [
 ];
 
 export default function HomeItem() {
-  var settings = {
+  const NextArrow = ({ className, onClick }) => (
+    <button
+      // style={{ right: "-80px", marginTop: "-100px" }}
+      type="button"
+      onClick={onClick}
+      className={className}
+    >
+      <ArrowIcon2 fill="#ffffff" />
+    </button>
+  );
+
+  const PrevArrow = ({ className, onClick }) => (
+    <button
+      // style={{ left: "-120px", marginTop: "-100px" }}
+      type="button"
+      onClick={onClick}
+      className={className}
+    >
+      <ArrowIcon1 fill="#ffffff" />
+    </button>
+  );
+
+  const settings = {
     dots: true,
     infinite: true,
+    accessibility: true,
+    arrows: true,
+    autoplay: false,
+    draggable: true,
+    fade: false,
+    swipe: true,
+    touchMove: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     className: "slid",
+    useCSS: true,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
   };
 
   return (
-    <div>
+    <div className="slider-maincontainer">
       <div className="cont">
         <h1 className="tittlestyle">Share your experiences</h1>
         <p>
@@ -69,8 +106,10 @@ export default function HomeItem() {
                 <small>{myDate()}</small>
                 <label>{slide.title}</label>
                 <div className="description">
-                  Maintaining a healthy work-life balance is importance for your
-                  employee's productivity and performance..
+                  <p className="desc-title">
+                    Maintaining a healthy work-life balance is importance for
+                    your employee's productivity and performance..
+                  </p>
                 </div>
               </div>
             </div>
