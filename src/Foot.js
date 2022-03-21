@@ -1,7 +1,7 @@
 import "./Foot.css";
 const Footer = () => {
   return (
-    <div>
+    <>
       <div className="footer">
         <div className="footer-cont footer-logo">
           <svg
@@ -79,7 +79,7 @@ const Footer = () => {
           <label className="phone-number">+2347012113233</label>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

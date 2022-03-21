@@ -85,15 +85,17 @@ export default function HomeItem() {
     <div className="slider-maincontainer">
       <div className="cont">
         <h1 className="tittlestyle">Share your experiences</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue ipsum
-          nunc
-        </p>
-        <p>
-          feugiat elementum ipsum convallis commodo. Et mattis ultricies
-          fringilla
-        </p>
-        <p> nullacongue ultrices ultrices vitae orci.</p>
+        <div classname="tittletext">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue ipsum
+            nunc
+          </p>
+          <p>
+            feugiat elementum ipsum convallis commodo. Et mattis ultricies
+            fringilla
+          </p>
+          <p> nullacongue ultrices ultrices vitae orci.</p>
+        </div>
       </div>
       {/* Top stories */}
       <h1 className="top-story">Top stories</h1>
@@ -116,7 +118,6 @@ export default function HomeItem() {
           );
         })}
       </Slider>
-      ;
     </div>
   );
 }

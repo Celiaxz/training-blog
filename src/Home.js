@@ -3,7 +3,7 @@ import HomeItem from "./HomeItem";
 import Foot from "./Foot";
 const Home = () => {
   return (
-    <div>
+    <>
       <header className="header">
         <div>
           <svg
@@ -39,7 +39,7 @@ const Home = () => {
       </header>
       <HomeItem />
       <Foot />
-    </div>
+    </>
   );
 };
 
