@@ -85,7 +85,7 @@ export default function HomeItem() {
     <div className="slider-maincontainer">
       <div className="cont">
         <h1 className="tittlestyle">Share your experiences</h1>
-        <div classname="tittletext">
+        <div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue ipsum
             nunc
@@ -105,7 +105,7 @@ export default function HomeItem() {
             <div className="rectangle-box" key={slide.id}>
               <img src={window.location.origin + "/1.jpg"} alt="computer" />
               <div className="featured-post">
-                <small>{myDate()}</small>
+                <span>{myDate()}</span>
                 <label>{slide.title}</label>
                 <div className="description">
                   <p className="desc-title">

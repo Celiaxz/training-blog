@@ -31,8 +31,8 @@ const Blog = () => {
       <header className="header">
         <div>
           <svg
-            width="100"
-            height="91"
+            width="80"
+            height="61"
             viewBox="0 0 100 91"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

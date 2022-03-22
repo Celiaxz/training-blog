@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import Footer from "./Foot";
-const contact = () => {
+
+export const Header = () => {
   return (
-    <div>
+    <>
       <header className="header">
         <div>
           <svg
@@ -22,25 +22,20 @@ const contact = () => {
             />
           </svg>
         </div>
-
         <div>
           <ul className="navs">
-            <li>
+            <li className="active">
               <Link to="/">HOME</Link>
             </li>
             <li>
               <Link to="/blog">BLOG</Link>
             </li>
-            <li className="active">
+            <li>
               <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>
       </header>
-      <h1 bg-color="red">"Add contact"</h1>
-      <Footer />
-    </div>
+    </>
   );
 };
-
-export default contact;

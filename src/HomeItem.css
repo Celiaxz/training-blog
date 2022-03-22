@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100&display=swap");
 
 .cont {
   text-align: center;
@@ -88,8 +89,9 @@
 
 .slid .rectangle-box {
   width: 60%;
-  /* overflow: hidden; */
+  overflow: hidden;
   position: relative;
+  border-radius: 11.2991px;
 }
 
 .slid .rectangle-box img {
@@ -123,15 +125,17 @@
 
 .featured-post {
   position: absolute;
-  padding: 15px;
+  padding: 0px 30px 0px 30px;
   bottom: 0px;
   z-index: 1;
 }
 
-.featured-post small {
+.featured-post span {
+  font-family: "Poppins";
+  font-style: normal;
   display: block;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16.9486px;
   line-height: 25px;
   letter-spacing: 0.035em;
   color: rgba(255, 255, 255, 0.44);
@@ -141,20 +145,20 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30.1308px;
   line-height: 45px;
   letter-spacing: 0.035em;
   color: #ffffff;
 }
 
 .description {
+  font-family: "Poppins";
   font-style: normal;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 18.8318px;
   line-height: 160%;
   /* or 30px */
-
   letter-spacing: 0.035em;
-
   color: rgba(255, 255, 255, 0.55);
 }
 

@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 10px auto;
-  padding: 0 10% 0 10%;
+  padding: 10px 10% 0 10%;
 }
 
 .navs {
@@ -18,6 +18,11 @@
 .navs li a {
   text-decoration: none;
   color: #000010;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 navs li:hover {
