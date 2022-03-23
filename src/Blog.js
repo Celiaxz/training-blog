@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import BlogItem from "./BlogItem";
-import Footer from "./Foot";
+import Footer from "./footer/foot";
 
 const myData = [
   {

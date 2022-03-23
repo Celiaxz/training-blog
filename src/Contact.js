@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Footer from "./Foot";
+import Footer from "./footer/foot";
 const contact = () => {
   return (
     <div>
