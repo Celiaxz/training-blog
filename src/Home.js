@@ -1,3 +1,4 @@
+import React from "react";
 import HomeItem from "./HomeItem";
 import Foot from "./Foot";
 import { Header } from "./header";

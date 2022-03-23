@@ -1,11 +1,13 @@
+import React from "react";
 import { Link } from "react-router-dom";
-
+import Logo from "./asset/logo.svg";
 export const Header = () => {
   return (
     <>
       <header className="header">
         <div>
-          <svg
+          <img src={Logo} alt="alluvium" />
+          {/* <svg
             width="80"
             height="61"
             viewBox="0 0 100 91"
@@ -20,9 +22,9 @@ export const Header = () => {
               d="M56.5059 9.50897C63.02 20.7307 69.6162 31.8978 75.9387 43.2016C80.4821 51.3853 85.3814 59.3774 89.8975 67.5611C92.9356 73.0625 90.4997 79.2755 85.1625 81.5473C80.6738 83.4632 74.8166 81.383 72.3806 77.168C65.5654 65.3167 58.6134 53.5749 51.853 41.6689C47.1179 33.321 42.246 25.0826 37.5384 16.7347C33.8981 10.1932 39.8101 1.35265 46.7621 2.91275C51.9077 2.06428 54.2889 5.73189 56.5059 9.50897Z"
               fill="#1B3854"
             />
-          </svg>
+          </svg> */}
         </div>
-        <div>
+        <div className="navsection">
           <ul className="navs">
             <li className="active">
               <Link to="/">HOME</Link>
