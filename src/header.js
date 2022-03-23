@@ -6,7 +6,7 @@ export const Header = () => {
     <>
       <header className="header">
         <div>
-          <img src={Logo} alt="alluvium" />
+          <img className="logo-style" src={Logo} alt="alluvium" />
           {/* <svg
             width="80"
             height="61"

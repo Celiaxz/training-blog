@@ -1,10 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import "./HomeItem.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { ReactComponent as ArrowIcon1 } from "./asset/arrow1.svg";
-import { ReactComponent as ArrowIcon2 } from "./asset/arrow2.svg";
+import "./home-slider.css";
+import { ReactComponent as ArrowIcon1 } from "../asset/arrow1.svg";
+import { ReactComponent as ArrowIcon2 } from "../asset/arrow2.svg";
 
 const myDate = () => {
   const currentDate = Date.now();
@@ -82,36 +80,23 @@ export default function HomeItem() {
   };
 
   return (
-    <div className="slider-maincontainer">
-      <div className="cont">
-        <h1 className="tittlestyle">Share your experiences</h1>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue ipsum
-            nunc
-          </p>
-          <p>
-            feugiat elementum ipsum convallis commodo. Et mattis ultricies
-            fringilla
-          </p>
-          <p> nullacongue ultrices ultrices vitae orci.</p>
-        </div>
-      </div>
-      {/* Top stories */}
-      <h1 className="top-story">Top stories</h1>
+    <div className="slider-container">
+      <h2>Top stories</h2>
       <Slider {...settings}>
         {myData.map((slide) => {
           return (
-            <div className="rectangle-box" key={slide.id}>
-              <img src={window.location.origin + "/1.jpg"} alt="computer" />
+            <div className="carousel-container" key={slide.id}>
+              <img
+                className="slider-img"
+                src={window.location.origin + "/1.jpg"}
+                alt="computer"
+              />
               <div className="featured-post">
-                <span>{myDate()}</span>
-                <label>{slide.title}</label>
-                <div className="description">
-                  <p className="desc-title">
-                    Maintaining a healthy work-life balance is importance for
-                    your employee's productivity and performance..
-                  </p>
+                <div className="blog-date">{myDate()}</div>
+                <div className="blog-title">{slide.title}</div>
+                <div className="blog-artice">
+                  Maintaining a healthy work-life balance is importance for your
+                  employee's productivity and performance..
                 </div>
               </div>
             </div>
