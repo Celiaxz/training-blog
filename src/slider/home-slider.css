@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100&display=swap");
+
 .slider-container {
   margin: 0 auto;
   padding: 30px;
@@ -87,23 +89,58 @@ h2 {
 
 .blog-date {
   padding-left: 10px;
-  color: lightgrey;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9486px;
+  line-height: 25px;
+  letter-spacing: 0.035em;
+
+  color: rgba(255, 255, 255, 0.44);
+}
+
+@media screen and (max-width: 390px) {
+  .blog-date {
+    font-size: 5px;
+  }
 }
 
 .blog-title {
-  color: #fff;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30.1308px;
   font-weight: 600;
   line-height: 45px;
   padding-left: 10px;
   z-index: 1;
+  font-style: normal;
+  letter-spacing: 0.035em;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 390px) {
+  .blog-tittle {
+    font-size: 5px;
+    font-weight: 200;
+  }
 }
 
 .blog-artice {
-  color: lightgrey;
+  /* display: inline-block;
+  padding: 10px;
+ 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.8318px;
+  line-height: 160%;
+  /* or 30px */
+  /* letter-spacing: 0.035em; */
+  color: rgba(255, 255, 255, 0.55);
+
   display: inline-block;
   padding: 10px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 1330px) {
@@ -121,5 +158,13 @@ h2 {
     font-size: 10px;
     width: 200px;
     margin-bottom: -70px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .blog-artice {
+    font-size: 5px;
+    width: 90px;
+    margin-bottom: -50px;
   }
 }

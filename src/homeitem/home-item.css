@@ -18,3 +18,14 @@
   /* line-height: 100px; */
   letter-spacing: 0.035em;
 }
+
+.text-item p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.035em;
+  color: rgba(27, 56, 84, 0.8);
+}
