@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100&display=swap");
+
+/* .tittletext .p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.035em;
+  color: rgba(27, 56, 84, 0.8);
+} */
+
+.top-story {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-family: "Poppins", sans-serif;
+  line-height: 146.5%;
+  margin-top: 70px;
+  font-size: 64.33px;
+}
+
+.slider-maincontainer .slid .slick-next {
+  width: 40px;
+  height: 100px;
+  right: -80px;
+}
+
+@media screen and (max-width: 900px) {
+  .slider-maincontainer .slid .slick-next {
+    width: 30px;
+    height: 70px;
+    right: -40px;
+  }
+}
+
+.slider-maincontainer .slid .slick-prev {
+  left: -100px;
+  width: 40px;
+  height: 100px;
+}
+
+@media screen and (max-width: 900px) {
+  .slider-maincontainer .slid .slick-prev {
+    width: 30px;
+    height: 70px;
+    left: -45px;
+  }
+}
+
+.slid {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 10%;
+  /* background-color: red; */
+  height: 550px;
+}
+
+.slid .rectangle-box {
+  width: 60%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 11.2991px;
+}
+
+.slid .rectangle-box img {
+  width: 100%;
+}
+
+.slid .rectangle-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.64);
+}
+/* .slid .arrows {
+  width: 20%;
+  text-align: center;
+} */
+
+.ellipsis {
+  width: 50%;
+  margin: 35px auto;
+  text-align: center;
+}
+
+.ellipsis svg {
+  margin-right: 5px;
+}
+
+.featured-post {
+  position: absolute;
+  padding: 0px 30px 0px 30px;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.featured-post span {
+  font-family: "Poppins";
+  font-style: normal;
+  display: block;
+  font-weight: 500;
+  font-size: 16.9486px;
+  line-height: 25px;
+  letter-spacing: 0.035em;
+  color: rgba(255, 255, 255, 0.44);
+}
+
+.featured-post label {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30.1308px;
+  line-height: 45px;
+  letter-spacing: 0.035em;
+  color: #ffffff;
+}
+
+.description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.8318px;
+  line-height: 160%;
+  /* or 30px */
+  letter-spacing: 0.035em;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.slick-dots {
+  padding-top: 10%;
+}

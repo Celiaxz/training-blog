@@ -1,15 +1,13 @@
 import React from "react";
 import "./HomeItem.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import HomeSlider from "../slider/HomeSlider";
 
 export default function HomeItem() {
   return (
-    <div>
+    <>
       <div className="cont">
         <h1 className="tittlestyle">Share your experiences</h1>
-        <div className="text-item">
+        <div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue ipsum
             nunc
@@ -22,6 +20,6 @@ export default function HomeItem() {
         </div>
       </div>
       <HomeSlider />
-    </div>
+    </>
   );
 }
