@@ -7,7 +7,7 @@ export default function HomeItem() {
     <>
       <div className="cont">
         <h1 className="tittlestyle">Share your experiences</h1>
-        <div>
+        <div classname="tittle-content">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue ipsum
             nunc

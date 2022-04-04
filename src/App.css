@@ -1,18 +1,17 @@
 .header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  margin: 10px auto;
-  padding: 10px 10% 0 10%;
-  /* width: 100vw; */
+  margin-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: inherit;
 }
-.navsection {
-  width: 30%;
-}
+
 .navs {
   list-style: none;
   display: flex;
-  width: 100%;
+  max-width: inherit;
   justify-content: space-between;
 }
 
@@ -77,8 +76,19 @@ navs li:hover {
   bottom: 20px;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.17);
 }
-
 .icon {
   color: white;
   font-size: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    padding-left: 0%;
+    flex-direction: column;
+  }
+  .logo-style {
+    padding-left: 45%;
+    padding-top: 10%;
+    max-width: 20%;
+    max-height: 20%;
+  }
 }

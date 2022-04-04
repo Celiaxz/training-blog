@@ -94,7 +94,7 @@ export default function HomeItem() {
                   <span>{myDate()}</span>
                   <label>{slide.title}</label>
                   <div className="description">
-                    <p className="desc-title">
+                    <p>
                       Maintaining a healthy work-life balance is importance for
                       your employee's productivity and performance..
                     </p>
